@@ -2,3 +2,5 @@ h1{color:hsl(177, 51%, 45%);}
 h2{color: #A2D5AB;}
 body{background-color: #557B83;}
 #img-body{width: 600px;} /*PREGUNTAR ESTO*/
+#col_izq{width: 50%;float: left;}
+#col_der{width: 50%;float: right;} /*
