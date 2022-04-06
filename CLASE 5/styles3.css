@@ -5,6 +5,11 @@ menu{background-color: black;}
 menu > a > li{display: inline; color: white;}
 menu{list-style-type: none;}
 a{text-decoration:none!important;}
+#columna1{margin: 0px;padding: 10px;border: 1px solid black;}
+#columna2{margin: 0px;padding: 10px;border: 1px solid black;}
+#columna3{margin: 0px;padding: 10px;border: 1px solid black;}
+#columna4{margin: 0px;padding: 10px;border: 1px solid black;}
+#fila1{margin: 0px;padding: 0px;}
+#fila2{margin: 0px;padding: 0px;}
 
-
-
+div{background-color: rgb(138, 133, 133);}
