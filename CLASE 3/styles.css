@@ -1,6 +1,6 @@
 h1{color:hsl(177, 51%, 45%);}
 h2{color: #A2D5AB;}
-body{background-color: #557B83;}
+body{background: linear-gradient(rgb(11, 11, 90),rgb(81, 218, 88));background-size:cover;background-repeat: no-repeat;}
 #img-body{width: 600px;} /*PREGUNTAR ESTO*/
 #col_izq{width: 50%;float: left;}
-#col_der{width: 50%;float: right;} /*
+#col_der{width: 50%;float: right;} 
