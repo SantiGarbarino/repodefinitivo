@@ -13,12 +13,22 @@ body{
     background-repeat: no-repeat, no-repeat, repeat;
     background-size: 100%;
      }
-h2{color: white;}
 
-#columna1{margin: 5px;padding: 10px;border: 6px solid white;}
-#columna2{margin: 5px;padding: 10px;border: 6px solid white;}
-#columna3{margin: 5px;padding: 10px;border: 6px solid white;}
-#columna4{margin: 5px;padding: 10px;border: 6px solid white;}
-     
-#fila{margin: 0px;padding: 0px;}
+h2{color: white;}
 #pag1{color: white; margin: 50px; padding: 40px;text-align: center;}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    height:600px;
+    padding: 65px;
+  }
+  .grid-item {
+    color: white;
+    height:300px;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
