@@ -43,5 +43,13 @@ el == pregunta si el valor coincide pj: ("11"==11) -->true
 el === pregunta si el valor y el tipo de dato coinciden pj: ("11"===11)-->false
 dentro de los if siempre se usa ===.
 hay que terminar cada renglon con un ;
+
+if(true){
+    console.log("hola")     se va a ejecutar pq el if necesita un true para ejecutarse.
+} 
+si pongo if("unString") {console.log("hola")} lo va ejecutar pq al string lo toma como true.
+el signo ! significa negacion. pj: !false = true
+
+cuando adentro del if quiero poner un and va: && y si quiero poner un or va: ||
 */
 

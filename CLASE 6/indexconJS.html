@@ -53,8 +53,34 @@ let v2
 v1 = prompt("Ingrese el valor del primer numero: ")
 v2 = prompt("Ingrese el valor del segundo numero: ")
 document.write(("La suma de ambos numeros da como resultado: ")+(Number(v1)+Number(v2)))
-*/
 
+let altura
+let peso
+altura =  prompt("Ingrese su altura: ")
+peso =  prompt("Ingrese su peso: ")
+if ((peso/(altura*altura)<18.5)){
+  document.write("Peso inferior al normal")}
+else if ((peso/(altura*altura)>18.5)&&(peso/(altura*altura)<25)){
+  document.write("Peso normal")}
+else if ((peso/(altura*altura))>25){
+  document.write("Peso superior al normal")}
+*/
+let v1 = parseInt(prompt("Ingresar el primer numero: "))
+let v2 = parseInt(prompt("Ingrese el sgundo valor: "))
+let operacion = prompt("Seleccionar una operacion (+,-,*,/)")
+let resultado
+ if (operacion == "+")
+ {resultado = v1 + v2}
+ else if(operacion == "-")
+ {resultado = v1 - v2}
+ else if(operacion == "/")
+ {if (v2 != 0)
+  {resultado = v1 / v2}
+  else {resultado = " No se puede dividir por 0 Steve"}
+}
+  else {resultado = v1 * v2}
+
+document.write(resultado)
 </script>
 
 </body>
