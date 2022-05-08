@@ -75,7 +75,7 @@ mostrar(siguienteFlecha(5))//6
 
 /*EJERCICIO:
 -Calcular costo total de productos y/o servicios seleccionados por el usuario.*/
-function calcularCostos(eleccion1, eleccion2, eleccion3){
+function calcularCostos(eleccion1, eleccion2, eleccion3)
     let costoTotal = 0
     servicio1 = 1000 //limpieza de cutis
     servicio2 = 2000 //uñas esculpidas
