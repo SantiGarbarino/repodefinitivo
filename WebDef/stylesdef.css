@@ -4,7 +4,7 @@ header{background-color: black;list-style-type: none;position: sticky;top: 0%;he
 #col-izq{width: 1%;float: left;}
 #col-der{width: 99%;float: right;color: white;text-align: center;}
 menu{background-color: black;float: right;}
-menu > a > li{display: inline; color: white;}
+menu > a > li{display: inline; color: white; margin-left: 15px;}
 menu{list-style-type: none;}
 
 body{
@@ -29,4 +29,5 @@ ul{
   text-align: left;
 }
 #info{text-decoration: underline;}
+
 
