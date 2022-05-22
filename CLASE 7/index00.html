@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Manejo de DOM</title> <!--DOM es Modelo Objetos del Documento-->
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <div id="primera-parte">
+            <h1> "El Titular"</h1>
+            <p>este texto es en <strong>negrita</strong></p>
+        </div>
+        <div id="segunda-parte">
+            <p id="pConId">Id</p>
+            <p class="pConClase">Class</p>
+            <p>Tag</p>
+        </div>
+        <div> <!-- el ID tiene que ser =  a lo q pongo en document.get....()
+                    el onclick tiene que ser = al nombre de la funcion
+                    el value es lo que aparece en el boton-->
+            <h1 id="titular"> Web titular</h1>
+            <input type="button" onclick="cambiarTitular()" 
+            value="Cambiar texto">
+        </div>
+    </main>
+    <footer></footer>
+</body>
+<script>
+    console.log("soy interno")
+</script>
+<script src="main.js"></script>
+</html>
