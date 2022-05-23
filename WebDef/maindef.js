@@ -1,4 +1,10 @@
 /* function mostrarinfo(){
     let titular1 = document.getElementById("Informacion")
 titular1.innerText = "Nacionalidad: Argentina"
- PREGUNTAR COMO PUEDO HACER PARA QUE AL CAMBIAR EL TEXTO ME MUESTRE UNA LISTA? YO QUIERO QUE APAREZCA: INFORMACION DEL DT Y ABAJO UN BOTON MOSTRAR. TOCAR MOSTRAR Y QUE ME APAREZCA LA LISTA CON LA INFORMACION*/
+*/
+//PREGUNTAR CUAL ES LA DIFERENCIA ENTRE PONER innerText con poner innerHTML 
+
+ function mostrarinf1(){
+     let contenedor = document.getElementById("comentario1")   //preguntar aca pq puse let contenedor
+     contenedor.innerHTML = "<ul> <li>Nacionalidad: Argentina</li> <li>Edad: 24 años</li> <li>Club: Inter (Italia)</li>  <li>Posicion: Delantero centro</li> </ul>"
+ }
