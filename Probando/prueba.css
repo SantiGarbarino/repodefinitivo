@@ -71,7 +71,7 @@ body{
   }
 #cuentaReg {
     text-align: right;
-    margin: 120px;
+    margin: 116px;
 }
 
   .image {
@@ -108,3 +108,22 @@ body{
     transform: translate(-50%, -50%);
     text-align:left;
   }
+
+  .footer {
+    position: sticky-bottom;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: black; opacity: 0.8;
+    margin-bottom: 0px;
+    color: white;
+    text-align: center;
+ }
+ p {
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
