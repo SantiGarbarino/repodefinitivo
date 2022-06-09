@@ -10,3 +10,15 @@ div{color: white;}
 table{width: 140%;}
 menu{list-style-type: none; float: right;}
 menu > a > li{display: inline;}
+
+.footer{
+    padding-top: 0px;
+    background-color: #2C3E50;
+    color: white;
+    height: 100px;
+}
+.footer-col {
+  margin-bottom: 10px;
+  width: 33%;
+  text-align: center;
+}
