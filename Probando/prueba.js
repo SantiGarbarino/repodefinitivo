@@ -40,3 +40,4 @@ const countdown = (deadline, elem, finalMessage) => {
 };
 
 countdown("Nov 21 2022 07:00:00 GMT-0500", "clock", "¡Ya empezó el Mundial!");
+

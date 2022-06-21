@@ -184,3 +184,11 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
+#logos{
+  margin-bottom: 0px;
+  margin-left: 20px;
+  font-size: 40px;
+  color: white;
+  position: center;
+  }
+#textofooter{margin-bottom: 15px;}
