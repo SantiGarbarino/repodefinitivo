@@ -41,3 +41,14 @@ const countdown = (deadline, elem, finalMessage) => {
 
 countdown("Nov 21 2022 07:00:00 GMT-0500", "clock", "¡Ya empezó el Mundial!");
 
+function confirmacion() {
+	var pregunta = confirm("¿Deseas visitar la página oficial de la FIFA?")
+	if (pregunta){
+		alert("Te envío allí rápidamente")
+		window.location = "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup/qatar2022";
+	}
+	else{
+		alert("Quizás en otro momento...\n Gracias de todas formas")
+	}
+}
+
